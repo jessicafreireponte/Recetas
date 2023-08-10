@@ -1,0 +1,74 @@
+header.headerPrincipal {
+  width: 100%;
+  background-image: url("./bread.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+header.headerPrincipal nav {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  border: 1px solid rgb(179, 177, 177);
+}
+
+header.headerPrincipal nav ul {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+header.headerPrincipal nav ul li {
+  list-style: none;
+}
+
+header.headerPrincipal nav ul li a {
+  color: black;
+}
+
+header.headerPrincipal section {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.322);
+}
+
+header.headerPrincipal section h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+header.headerPrincipal section .scroll {
+  position: absolute;
+  bottom: 25px;
+  border: 1px solid white;
+  border-radius: 15px;
+  height: 30px;
+  width: 15px;
+  animation: scroll_1 2s ease infinite;
+}
+
+@keyframes scroll_1 {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  75% {
+    transform: translateY(0.6);
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0.8em);
+    opacity: 0;
+  }
+}

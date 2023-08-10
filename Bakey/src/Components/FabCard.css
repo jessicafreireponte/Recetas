@@ -1,0 +1,36 @@
+.btn-floating.halfway-fab {
+  position: absolute;
+  right: 38%;
+  bottom: -30px;
+}
+
+.btn-floating {
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  line-height: 40px;
+}
+
+.btn-floating i {
+  width: inherit;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 65px;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  width: 2em;
+  height: 3em;
+}
+
+.card-content {
+  margin-top: 1.3rem;
+}
+
+.card .card-image img {
+  object-fit: cover;
+  height: 280px;
+  width: 100%;
+}
