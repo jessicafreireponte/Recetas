@@ -1,7 +1,6 @@
 import "materialize-css/dist/css/materialize.min.css";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import "./FabCard.css";
-// import M from "materialize-css";
 
 const CardComponent = ({ img, title }) => {
   return (

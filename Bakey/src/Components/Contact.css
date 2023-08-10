@@ -1,0 +1,33 @@
+#Contact header {
+  background-image: url("./breadB.jpg");
+  background-size: cover;
+  border-radius: 0 0 15px 15px;
+}
+
+#Contact header h3,
+#Contact header h4 {
+  background-color: rgba(0, 0, 0, 0.459);
+  margin: 0;
+  padding: 0.7rem;
+  color: white;
+}
+
+#Contact header h4 {
+  padding-bottom: 1.2rem;
+  border-radius: 0 0 15px 15px;
+}
+
+#Contact aside {
+  padding: 0 2rem;
+  height: 12vh;
+}
+
+#Contact aside ul {
+  margin: 0;
+  height: 100%;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
