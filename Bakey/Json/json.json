@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "img": "../public/croissants.jpg",
+    "title": "Croissants de fresas",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius corporis, laboriosam illo dicta similique tempore fuga. Ex nobis repellat iure!",
+    "elements": [
+      "mantequilla",
+      "sal",
+      "azúcar glas",
+      "huevos",
+      "levadura",
+      "fresas"
+    ]
+  },
+  {
+    "id": "2",
+    "img": "../public/cookies.jpg",
+    "title": "Cookies the lime",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius corporis, laboriosam illo dicta similique tempore fuga. Ex nobis repellat iure!",
+    "elements": [
+      "mantequilla",
+      "sal",
+      "azúcar glas",
+      "huevos",
+      "levadura",
+      "lime"
+    ]
+  },
+  {
+    "id": "3",
+    "img": "../public/cupcake.jpg",
+    "title": "Cupcake fresa",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius corporis, laboriosam illo dicta similique tempore fuga. Ex nobis repellat iure!",
+    "elements": [
+      "mantequilla",
+      "sal",
+      "azúcar glas",
+      "huevos",
+      "levadura",
+      "leche",
+      "fresas"
+    ]
+  },
+  {
+    "id": "4",
+    "img": "../public/macaroons.jpg",
+    "title": "Macarrons",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius corporis, laboriosam illo dicta similique tempore fuga. Ex nobis repellat iure!",
+    "elements": ["mantequilla", "sal", "azúcar glas", "huevos"]
+  },
+  {
+    "id": "5",
+    "img": "../public/cakes.jpg",
+    "title": "Cakes mixed berries",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius corporis, laboriosam illo dicta similique tempore fuga. Ex nobis repellat iure!",
+    "elements": [
+      "mantequilla",
+      "sal",
+      "azúcar glas",
+      "huevos",
+      "levadura",
+      "berries"
+    ]
+  },
+  {
+    "id": "6",
+    "img": "../public/roulade.jpg",
+    "title": "Roulade lime",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius corporis, laboriosam illo dicta similique tempore fuga. Ex nobis repellat iure!",
+    "elements": [
+      "mantequilla",
+      "sal",
+      "azúcar glas",
+      "huevos",
+      "levadura",
+      "lime"
+    ]
+  }
+]

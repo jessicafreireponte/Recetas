@@ -1,15 +1,22 @@
 import "materialize-css/dist/css/materialize.min.css";
 import FavoriteIcon from "@mui/icons-material/Favorite";
+import { useNavigate } from "react-router-dom";
+
 import "./FabCard.css";
 
-const CardComponent = ({ img, title }) => {
+const CardComponent = ({ id, img, title, description }) => {
+  const navigate = useNavigate();
+
   return (
     <div className="row">
       <div className="col s12 m6">
         <div className="card">
           <div className="card-image">
             <img src={img} />
-            <a className="btn-floating halfway-fab waves-effect waves-light red">
+            <a
+              className="btn-floating halfway-fab waves-effect waves-light red"
+              onClick={() => navigate(`/products/${id}`)}
+            >
               <i className="material-icons">
                 <FavoriteIcon />
               </i>
@@ -17,11 +24,7 @@ const CardComponent = ({ img, title }) => {
           </div>
           <div className="card-content">
             <span className="card-title">{title} </span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius
-              corporis, laboriosam illo dicta similique tempore fuga. Ex nobis
-              repellat iure!
-            </p>
+            <p>{description}</p>
           </div>
         </div>
       </div>

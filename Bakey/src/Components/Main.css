@@ -19,3 +19,48 @@ header h4 {
   font-size: 1.5rem;
   padding-bottom: 1.5rem;
 }
+
+@media (min-width: 800px) {
+  img.imgMain {
+    width: 50%;
+    object-fit: cover;
+  }
+
+  #About section {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  #About section:nth-child(odd) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 1200px) {
+  img.imgMain {
+    width: 60%;
+    height: 300px;
+    object-fit: cover;
+  }
+  #About article {
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #About section.media {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  #About section:nth-child(odd) {
+    border-right: 1px solid gray;
+  }
+}

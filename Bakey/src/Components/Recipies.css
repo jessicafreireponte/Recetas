@@ -1,0 +1,8 @@
+@media (min-width: 800px) {
+  ul.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
