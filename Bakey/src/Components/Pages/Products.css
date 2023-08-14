@@ -46,3 +46,47 @@ div.btnDiv {
   align-items: end;
   margin-bottom: 5px;
 }
+
+@media (min-width: 600px) and (max-width: 1199px) {
+  .marging {
+    width: 98.5%;
+    display: flex;
+    justify-content: center;
+  }
+
+  div.btnDiv {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  li img.imgMain {
+    width: 100%;
+    max-height: 400px;
+  }
+
+  button.btn:hover {
+    background-color: rgb(104, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .marging {
+    top: 0;
+    left: 38.5vw;
+  }
+
+  li img.imgMain {
+    width: 100%;
+    min-height: 400px;
+  }
+  .product {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/cake2.png");
+    background-repeat: repeat;
+    background-size: contain;
+  }
+}

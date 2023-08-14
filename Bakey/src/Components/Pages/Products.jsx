@@ -14,7 +14,7 @@ export const Products = () => {
   };
 
   return (
-    <>
+    <section className="product">
       <ul className="card row marging">
         {product ? (
           <li key={product.id}>
@@ -37,6 +37,6 @@ export const Products = () => {
           </button>
         </div>
       </ul>
-    </>
+    </section>
   );
 };
