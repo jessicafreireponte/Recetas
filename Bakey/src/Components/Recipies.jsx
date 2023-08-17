@@ -7,7 +7,13 @@ export const Recipies = () => {
     <article id="Recipes">
       <header>
         <h2>Our products</h2>
-        <h4>Lorem ipsum dolor ad repellat omnis error cumque?</h4>
+        <h4>
+          Lorem ipsum dolor ad repellat omnis error cumque?
+          <br></br>
+          <em className="import">
+            (Clicla en el corazón para saber los ingredientes)
+          </em>
+        </h4>
       </header>
       <section>
         <ul className="cards">

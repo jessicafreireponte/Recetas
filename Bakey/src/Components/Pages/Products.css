@@ -47,7 +47,7 @@ div.btnDiv {
   margin-bottom: 5px;
 }
 
-@media (min-width: 600px) and (max-width: 1199px) {
+@media (min-width: 600px) and (max-width: 800px) {
   .marging {
     width: 98.5%;
     display: flex;
@@ -72,10 +72,16 @@ div.btnDiv {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 801px) {
   .marging {
-    top: 0;
-    left: 38.5vw;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+  }
+  .card {
+    width: 450px;
   }
 
   li img.imgMain {
@@ -88,5 +94,12 @@ div.btnDiv {
     background-image: url("/cake2.png");
     background-repeat: repeat;
     background-size: contain;
+    display: flex;
+    justify-content: center;
+  }
+
+  button.btn {
+    height: 70px;
+    width: 80px;
   }
 }
