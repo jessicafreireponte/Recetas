@@ -1,3 +1,6 @@
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import EmailIcon from "@mui/icons-material/Email";
+import DirectionsIcon from "@mui/icons-material/Directions";
 import "./Contact.css";
 
 export const Contact = () => {
@@ -9,9 +12,18 @@ export const Contact = () => {
       </header>
       <aside>
         <ul>
-          <li>tel: +88 888888</li>
-          <li>email: bakey@fake.com</li>
-          <li>direction: Street false 88, Bakery</li>
+          <li>
+            <LocalPhoneIcon /> <a href="tel:+88888888">+88 888888</a>
+            {/* Cambiar el número de telefono por el que quieras */}
+          </li>
+          <li>
+            <EmailIcon />
+            <a href="">bakey@fake.com</a>
+          </li>
+          <li>
+            <DirectionsIcon />
+            <a href=""> Street false 88, Bakery</a>
+          </li>
         </ul>
       </aside>
     </footer>

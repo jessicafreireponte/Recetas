@@ -2,79 +2,58 @@
   {
     "id": "1",
     "img": "../public/croissants.jpg",
-    "title": "Croissants de fresas",
+    "title": "Strawberry Croissants",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius corporis, laboriosam illo dicta similique tempore fuga. Ex nobis repellat iure!",
     "elements": [
-      "mantequilla",
-      "sal",
-      "azúcar glas",
-      "huevos",
-      "levadura",
-      "fresas"
+      "butter",
+      "salt",
+      "powdered sugar",
+      "eggs",
+      "yeast",
+      "strawberries"
     ]
   },
   {
     "id": "2",
     "img": "../public/cookies.jpg",
-    "title": "Cookies the lime",
+    "title": "Lime Cookies",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius corporis, laboriosam illo dicta similique tempore fuga. Ex nobis repellat iure!",
-    "elements": [
-      "mantequilla",
-      "sal",
-      "azúcar glas",
-      "huevos",
-      "levadura",
-      "lime"
-    ]
+    "elements": ["butter", "salt", "powdered sugar", "eggs", "yeast", "lime"]
   },
   {
     "id": "3",
     "img": "../public/cupcake.jpg",
-    "title": "Cupcake fresa",
+    "title": "Strawberry Cupcake",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius corporis, laboriosam illo dicta similique tempore fuga. Ex nobis repellat iure!",
     "elements": [
-      "mantequilla",
-      "sal",
-      "azúcar glas",
-      "huevos",
-      "levadura",
-      "leche",
-      "fresas"
+      "butter",
+      "salt",
+      "powdered sugar",
+      "eggs",
+      "yeast",
+      "milk",
+      "strawberries"
     ]
   },
   {
     "id": "4",
     "img": "../public/macaroons.jpg",
-    "title": "Macarrons",
+    "title": "Macarons",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius corporis, laboriosam illo dicta similique tempore fuga. Ex nobis repellat iure!",
-    "elements": ["mantequilla", "sal", "azúcar glas", "huevos"]
+    "elements": ["butter", "salt", "powdered sugar", "eggs"]
   },
   {
     "id": "5",
     "img": "../public/cakes.jpg",
-    "title": "Cakes mixed berries",
+    "title": "Mixed Berry Cakes",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius corporis, laboriosam illo dicta similique tempore fuga. Ex nobis repellat iure!",
-    "elements": [
-      "mantequilla",
-      "sal",
-      "azúcar glas",
-      "huevos",
-      "levadura",
-      "berries"
-    ]
+    "elements": ["butter", "salt", "powdered sugar", "eggs", "yeast", "berries"]
   },
   {
     "id": "6",
     "img": "../public/roulade.jpg",
-    "title": "Roulade lime",
+    "title": "Lime Roulade",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius corporis, laboriosam illo dicta similique tempore fuga. Ex nobis repellat iure!",
-    "elements": [
-      "mantequilla",
-      "sal",
-      "azúcar glas",
-      "huevos",
-      "levadura",
-      "lime"
-    ]
+    "elements": ["butter", "salt", "powdered sugar", "eggs", "yeast", "lime"]
   }
 ]

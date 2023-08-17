@@ -6,7 +6,7 @@ export const Header = () => {
     scroll.scrollTo(document.getElementById("About").offsetTop - 60);
   };
   const scrollToHome = () => {
-    scroll.scrollTo(document.getElementById("About").offsetTop);
+    scroll.scrollTo(document.getElementById("Home").offsetTop);
   };
   const scrollToRecipes = () => {
     scroll.scrollTo(document.getElementById("Recipes").offsetTop - 60);

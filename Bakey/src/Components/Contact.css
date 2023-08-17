@@ -23,11 +23,36 @@
 }
 
 #Contact aside ul {
-  margin: 0;
-  height: 100%;
-  padding: 0 2rem;
+  margin: 1rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+#Contact aside ul li {
+  gap: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 750px) {
+  #Contact aside ul {
+    height: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 0;
+  }
+
+  #Contact aside ul li a {
+    font-size: 100%;
+    color: red;
+  }
 }
