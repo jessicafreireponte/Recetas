@@ -3,6 +3,10 @@
   top: 0;
   margin: 0 0.5rem;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
 }
 
 .productH2 {
@@ -32,11 +36,16 @@ li img.imgMain {
   box-shadow: 0px 1px 3px grey;
 }
 
-button.btn {
-  background-color: rgb(160, 143, 143);
+div.btnDiv button {
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 45px;
+  width: 60px;
 }
 
 div.btnDiv {
@@ -50,8 +59,6 @@ div.btnDiv {
 @media (min-width: 600px) and (max-width: 800px) {
   .marging {
     width: 98.5%;
-    display: flex;
-    justify-content: center;
   }
 
   div.btnDiv {
@@ -63,22 +70,11 @@ div.btnDiv {
     width: 100%;
     max-height: 400px;
   }
-
-  button.btn:hover {
-    background-color: rgb(104, 46, 46);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
 
 @media (min-width: 801px) {
-  .marging {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: space-between;
+  .margin {
+    min-height: 100vh;
   }
   .card {
     width: 450px;
@@ -96,10 +92,5 @@ div.btnDiv {
     background-size: contain;
     display: flex;
     justify-content: center;
-  }
-
-  button.btn {
-    height: 70px;
-    width: 80px;
   }
 }

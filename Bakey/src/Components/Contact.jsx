@@ -2,14 +2,17 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
 import DirectionsIcon from "@mui/icons-material/Directions";
 import "./Contact.css";
+import { MapComponent } from "./Map";
 
 export const Contact = () => {
   return (
     <footer id="Contact" className=".footerPrincipal">
-      <header>
-        <h3>Contact</h3>
-        <h4>Lorem ipsum dolor sit amet</h4>
-      </header>
+      <aside className="headerAside">
+        <header>
+          <h3>Contact</h3>
+          <h4>Lorem ipsum dolor sit amet</h4>
+        </header>
+      </aside>
       <aside>
         <ul>
           <li>
@@ -26,6 +29,9 @@ export const Contact = () => {
           </li>
         </ul>
       </aside>
+      <MapComponent />
+
+      <p className="footer">Create by @jessicafreireponte in 2023</p>
     </footer>
   );
 };

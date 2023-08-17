@@ -32,7 +32,7 @@ export const Products = () => {
           <p>Not Found</p>
         )}
         <div className="btnDiv">
-          <button onClick={handleBack} className="btn">
+          <button onClick={handleBack}>
             <FastRewindIcon />
           </button>
         </div>
